@@ -26,13 +26,11 @@ jobs:
         
         sudo chmod +x gradlew
         sh gradlew assembleRelease
-        ls -la app/build/outputs/apk/
-        ls -la app/build/outputs/apk/release
       shell: bash
 
     - name: Upload APK
       uses: actions/upload-artifact@v2
       with:
           name: app-debug
-          path: app/build/outputs/apk/debug/app-debug.apk
+          path: app/build/outputs/apk/release/app-release-unsigned.apk
 
