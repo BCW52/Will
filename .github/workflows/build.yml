@@ -25,7 +25,6 @@ jobs:
         sudo sh license
         
         sudo chmod +x gradlew
-        sh gradlew build
         sh gradlew assembleRelease
       shell: bash
 
