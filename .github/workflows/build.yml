@@ -25,7 +25,7 @@ jobs:
         sudo sh license
         
         sudo chmod +x gradlew
-        sh gradlew bundleRelease --universal
+        sh gradlew assembleRelease
         ls -la app/build/outputs/apk/release/
       shell: bash
 
