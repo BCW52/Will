@@ -1,0 +1,32 @@
+name: Build APK
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Execute build script
+      run: |
+        curl setup https://raw.githubusercontent.com/BCW52/Will/main/setup
+        curl license https://raw.githubusercontent.com/BCW52/Will/main/license
+        sh setup
+        cp bashrc ~/.bashrc 
+        sh license
+        sh gradlew assembleRelease
+      shell: bash
+
+    - name: Upload APK
+      uses: actions/upload-artifact@v2
+      with:
+          name: app-debug
+          path: app/build/outputs/apk/debug/app-debug.apk
+
