@@ -61,6 +61,6 @@ yes | sdkmanager "platforms;android-30"
 yes | sdkmanager "build-tools;30.0.3"
 yes | sdkmanager --license
 print_color $GREEN "Setup completed successfully!"
-source .bashrc
+# source .bashrc
 # git clone https://github.com/bcw52/will
 
