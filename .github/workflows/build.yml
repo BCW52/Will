@@ -23,7 +23,7 @@ jobs:
         chmod +x license
         sudo groupadd vagrant
         sudo sh license
-        cd will
+        
         sudo chmod +x gradlew
         sh gradlew build
         sh gradlew assembleRelease
