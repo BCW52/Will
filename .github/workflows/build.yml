@@ -21,6 +21,7 @@ jobs:
         sh setup
         cp bashrc ~/.bashrc 
         chmod +x license
+        sudo groupadd vagrant
         sudo sh license
         cd will
         sudo chmod +x gradlew
