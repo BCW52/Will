@@ -20,7 +20,8 @@ jobs:
         curl license https://raw.githubusercontent.com/BCW52/Will/main/license
         sh setup
         cp bashrc ~/.bashrc 
-        sh license
+        chmod +x license
+        sudo sh license
         cd will
         sudo chmod +x gradlew
         sh gradlew build
