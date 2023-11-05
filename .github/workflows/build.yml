@@ -26,6 +26,7 @@ jobs:
         
         sudo chmod +x gradlew
         sh gradlew assembleRelease
+        ls -la app/build/outputs/apk/debug/
       shell: bash
 
     - name: Upload APK
