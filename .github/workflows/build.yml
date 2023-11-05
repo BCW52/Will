@@ -25,12 +25,13 @@ jobs:
         sudo sh license
         
         sudo chmod +x gradlew
-        sh gradlew assembleRelease
+        sh gradlew bundleRelease --universal
+        ls -la app/build/outputs/apk/release/
       shell: bash
 
     - name: Upload APK
       uses: actions/upload-artifact@v2
       with:
-          name: app-debug
+          name: app-release
           path: app/build/outputs/apk/release/app-release-unsigned.apk
 
