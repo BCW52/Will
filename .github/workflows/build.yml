@@ -21,6 +21,7 @@ jobs:
         sh setup
         cp bashrc ~/.bashrc 
         sh license
+        cd will
         sudo chmod +x gradlew
         sh gradlew build
         sh gradlew assembleRelease

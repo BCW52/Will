@@ -64,6 +64,3 @@ print_color $GREEN "Setup completed successfully!"
 source .bashrc
 git clone https://github.com/bcw52/will
 
-curl -s "https://get.sdkman.io" | bash
-source "$HOME/.sdkman/bin/sdkman-init.sh"
-sdk version
