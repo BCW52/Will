@@ -16,6 +16,7 @@ jobs:
           curl -o setup https://raw.githubusercontent.com/BCW52/Will/main/setup
           curl -o license https://raw.githubusercontent.com/BCW52/Will/main/license
           sh setup
+
           cp bashrc ~/.bashrc
           chmod +x license
           sudo groupadd vagrant
