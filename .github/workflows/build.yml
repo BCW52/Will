@@ -1,5 +1,4 @@
 name: Build APK
-
 on:
   push:
     branches:
@@ -7,31 +6,45 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-    - name: Execute build script
-      run: |
-        curl setup https://raw.githubusercontent.com/BCW52/Will/main/setup
-        curl license https://raw.githubusercontent.com/BCW52/Will/main/license
-        sh setup
-        cp bashrc ~/.bashrc 
-        chmod +x license
-        sudo groupadd vagrant
-        sudo sh license
-        
-        sudo chmod +x gradlew
-        sh gradlew assembleRelease
-        ls -la app/build/outputs/apk/release/
-      shell: bash
+      - name: Execute build script
+        run: |
+          curl -o setup https://raw.githubusercontent.com/BCW52/Will/main/setup
+          curl -o license https://raw.githubusercontent.com/BCW52/Will/main/license
+          sh setup
+          cp bashrc ~/.bashrc
+          chmod +x license
+          sudo groupadd vagrant
+          sudo sh license
 
-    - name: Upload APK
-      uses: actions/upload-artifact@v2
-      with:
+      - name: Decode Keystore
+        id: decode_keystore
+        uses: timheuer/base64-to-file@v1.2
+        with:
+          fileName: 'keystore.jks'
+          fileDir: 'app/keystore/'
+          encodedString: ${{ secrets.KEYSTORE }}
+
+      - name: Build APK
+        run: |
+          sudo chmod +x gradlew
+          sh gradlew assembleRelease
+          ls -la app/build/outputs/apk/release/
+        shell: bash
+        env:
+          SIGNING_KEY_ALIAS: ${{ secrets.SIGNING_KEY_ALIAS }}
+          SIGNING_KEY_PASSWORD: ${{ secrets.SIGNING_KEY_PASSWORD }}
+          SIGNING_STORE_PASSWORD: ${{ secrets.SIGNING_STORE_PASSWORD }}
+
+      - name: Verify Signature
+        run: $ANDROID_SDK_ROOT/build-tools/33.0.1/apksigner verify --print-certs app/build/outputs/apk/release/<<application name>>_${{ github.event.inputs.version }}.apk
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v2
+        with:
           name: app-release
           path: app/build/outputs/apk/release/app-armeabi-v7a-release-unsigned.apk
-                

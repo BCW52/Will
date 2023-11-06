@@ -6,7 +6,12 @@ plugins {
 
 android {
     signingConfigs {
-
+        release {
+            storeFile = file("keystore/keystore.jks")
+            storePassword System.getenv("SIGNING_STORE_PASSWORD")
+            keyAlias System.getenv("SIGNING_KEY_ALIAS")
+            keyPassword System.getenv("SIGNING_KEY_PASSWORD")
+        }
     }
     compileSdkVersion 33
     buildToolsVersion '30.0.3'
@@ -23,7 +28,16 @@ android {
         pickFirst '**/*.so'
     }
     buildTypes {
-
+        // ...
+        release {
+            // ...
+            applicationVariants.all { variant ->
+                variant.outputs.all {
+                    outputFileName = "${rootProject.name}_${versionName}.apk"
+                }
+            }
+            signingConfig signingConfigs.release
+        }
     }
     dataBinding{
         enabled true
