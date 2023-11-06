@@ -41,6 +41,13 @@ jobs:
           SIGNING_KEY_PASSWORD: ${{ secrets.SIGNING_KEY_PASSWORD }}
           SIGNING_STORE_PASSWORD: ${{ secrets.SIGNING_STORE_PASSWORD }}
 
+      - name: Debug Keystore
+        run: |
+            echo "Keystore Path: app/keystore/keystore.jks"
+            ls -la app/keystore/
+            keytool -list -v -keystore app/keystore/keystore.jks -storepass harryThanatos
+        env:
+           KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
       - name: Verify Signature
         run: $ANDROID_SDK_ROOT/build-tools/33.0.1/apksigner verify --print-certs app/build/outputs/apk/release/*.apk
 
