@@ -37,9 +37,9 @@ jobs:
           ls -la app/build/outputs/apk/release/
         shell: bash
         env:
-          SIGNING_KEY_ALIAS: ${{ secrets.SIGNING_KEY_ALIAS }}
-          SIGNING_KEY_PASSWORD: ${{ secrets.SIGNING_KEY_PASSWORD }}
-          SIGNING_STORE_PASSWORD: ${{ secrets.SIGNING_STORE_PASSWORD }}
+          SIGNING_KEY_ALIAS: KaizenVPN
+          SIGNING_KEY_PASSWORD: harryThanatos
+          SIGNING_STORE_PASSWORD: harryThanatos
 
       - name: Debug Keystore
         run: |
