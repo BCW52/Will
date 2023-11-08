@@ -8,9 +8,9 @@ android {
     signingConfigs {
         release {
             storeFile = file("keystore/keystore.jks")
-            storePassword System.getenv("harryThanatos")
-            keyAlias System.getenv("KaizenVPN")
-            keyPassword System.getenv("harryThanatos")
+            storePassword "harryThanatos"
+            keyAlias "KaizenVPN"
+            keyPassword "harryThanatos"
         }
     }
     compileSdkVersion 33
