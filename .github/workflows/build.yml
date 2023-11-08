@@ -56,7 +56,7 @@ jobs:
           echo "$KEYSTORE" | base64 --decode > keystore.jks
           jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore keystore.jks -storepass ${{ secrets.KEYSTORE_PASSWORD }} -keypass ${{ secrets.KEY_PASSWORD }} app-release-unsigned.apk ${{ secrets.KEY_ALIAS }}
           zipalign -v 4 app-release-unsigned.apk app-release-signed.apk
-
+          flutter build appbundle
       - name: Upload the signed APK artifact
         uses: actions/upload-artifact@v2
         with:
