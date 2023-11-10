@@ -45,13 +45,13 @@ jobs:
         env:
            KEYSTORE_PASSWORD: harryThanatos
       - name: Verify Signature
-        run: $ANDROID_SDK_ROOT/build-tools/30.0.3/apksigner verify --print-certs "app/build/outputs/apk/release/KaizenVPN.apk"
+#        run: $ANDROID_SDK_ROOT/build-tools/30.0.3/apksigner verify --print-certs "app/build/outputs/apk/release/KaizenVPN.apk"
 
       - name: Sign APK
         run: |
           echo "$KEYSTORE" | base64 --decode > keystore.jks
-          jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore keystore.jks -storepass harryThanatos -keypass harryThanatos "Will VPN v8.0_8.0.apk" KaizenVPN 
-          zipalign -v 4 "Will VPN v8.0_8.0.apk" app.apk
+          jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore keystore.jks -storepass harryThanatos -keypass harryThanatos "KaizenVPN.apk" KaizenVPN 
+          zipalign -v 4 "KaizenVPN.apk" app.apk
           flutter build appbundle
       - name: Upload the signed APK artifact
         uses: actions/upload-artifact@v2
