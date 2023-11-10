@@ -37,10 +37,6 @@ jobs:
           sh gradlew assembleRelease
           ls -la app/build/outputs/apk/release/
         shell: bash
-        env:
-          SIGNING_KEY_ALIAS: KaizenVPN
-          SIGNING_KEY_PASSWORD: harryThanatos
-          SIGNING_STORE_PASSWORD: harryThanatos
 
       - name: Debug Keystore
         run: |
