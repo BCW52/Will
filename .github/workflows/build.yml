@@ -1,4 +1,5 @@
 name: Build APK
+
 on:
   push:
     branches:
@@ -16,7 +17,6 @@ jobs:
           curl -o setup https://raw.githubusercontent.com/BCW52/Will/main/setup
           curl -o license https://raw.githubusercontent.com/BCW52/Will/main/license
           sudo sh setup
-
           cp bashrc ~/.bashrc
           chmod +x license
           sudo groupadd vagrant
@@ -39,24 +39,24 @@ jobs:
 
       - name: Debug Keystore
         run: |
-            echo "Keystore Path: app/keystore/keystore.jks"
-            ls -la app/keystore/
-            keytool -list -v -keystore app/keystore/keystore.jks -storepass harryThanatos
+          echo "Keystore Path: app/keystore/keystore.jks"
+          ls -la app/keystore/
+          keytool -list -v -keystore app/keystore/keystore.jks -storepass harryThanatos
         env:
-           KEYSTORE_PASSWORD: harryThanatos
+          KEYSTORE_PASSWORD: harryThanatos
+
       - name: Sign App Bundle
-  uses: r0adkll/sign-android-release@v1   
-  id: sign_app
-  with:
-   releaseDirectory: build/app/outputs/bundle/release/
-   signingKeyBase64: ${{ secrets.ANDROID_KEYSTORE_FILE_BASE64 }}
-   alias: ${{ secrets.ANDROID_SIGNING_KEY_ALIAS }}         
-   keyStorePassword: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}             
-   
-   keyPassword: ${{ secrets.ANDROID_SIGNING_KEY_PASSWORD }}
+        uses: r0adkll/sign-android-release@v1
+        id: sign_app
+        with:
+          releaseDirectory: build/app/outputs/bundle/release/
+          signingKeyBase64: ${{ secrets.ANDROID_KEYSTORE_FILE_BASE64 }}
+          alias: ${{ secrets.ANDROID_SIGNING_KEY_ALIAS }}
+          keyStorePassword: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          keyPassword: ${{ secrets.ANDROID_SIGNING_KEY_PASSWORD }}
+
       - name: Upload the signed APK artifact
         uses: actions/upload-artifact@v2
         with:
           name: app-release-signed
           path: app.apk
-
