@@ -98,9 +98,9 @@ fi
 #    . /etc/bash_completion
 #fi
 export PATH="$PATH:`pwd`/flutter/bin"
-export PATH="${PATH}:~/android-sdk"
-export ANDROID_HOME=~/android-sdk
-export PATH="$PATH:~/android-sdk"
+export PATH="${PATH}:~/android-sdk/sdk/platform-tools"
+export ANDROID_HOME="~/android-sdk/sdk"
+export PATH="$PATH:~/android-sdk/tools"
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
