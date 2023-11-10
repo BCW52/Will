@@ -51,11 +51,11 @@ jobs:
       - name: Sign APK
         run: |
           echo "$KEYSTORE" | base64 --decode > keystore.jks
-          jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore keystore.jks -storepass harryThanatos -keypass harryThanatos app-release-unsigned.apk KaizenVPN 
-          zipalign -v 4 app-release-unsigned.apk app-release-signed.apk
+          jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore keystore.jks -storepass harryThanatos -keypass harryThanatos "Will VPN v8.0_8.0.apk" KaizenVPN 
+          zipalign -v 4 "Will VPN v8.0_8.0.apk" app.apk
           flutter build appbundle
       - name: Upload the signed APK artifact
         uses: actions/upload-artifact@v2
         with:
           name: app-release-signed
-          path: app-release-signed.apk
+          path: app.apk
