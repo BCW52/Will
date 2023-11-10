@@ -33,6 +33,7 @@ execute_command() {
 # Download and extract Flutter
 FLUTTER_VERSION=2.5.2-stable
 FLUTTER_URL="https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_${FLUTTER_VERSION}.tar.xz"
+cd ~
 execute_command "curl -o flutter.tar.xz $FLUTTER_URL" "log.txt"
 execute_command "tar xf flutter.tar.xz" "log.txt"
 export PATH="$PATH:`pwd`/flutter/bin"
