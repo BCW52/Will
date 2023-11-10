@@ -46,7 +46,7 @@ jobs:
         env:
            KEYSTORE_PASSWORD: harryThanatos
       - name: Verify Signature
-        run: $ANDROID_SDK_ROOT/build-tools/33.0.1/apksigner verify --print-certs app/build/outputs/apk/release/*.apk
+        run: $ANDROID_SDK_ROOT/build-tools/30.0.3/apksigner verify --print-certs "app/build/outputs/apk/release/Will VPN v8.0_8.0.apk"
 
       - name: Sign APK
         run: |
