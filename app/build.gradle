@@ -5,6 +5,15 @@ plugins {
 }
 
 android {
+
+    signingConfigs {
+        release {
+            storeFile file('app/keystore/keystore.jks')
+            storePassword System.getenv("SIGNING_STORE_PASSWORD") // This is the keystore password
+            keyAlias System.getenv("SIGNING_KEY_ALIAS")
+            keyPassword System.getenv("SIGNING_KEY_PASSWORD") // This is the key pair password
+        }
+    }
     compileSdkVersion 33
     buildToolsVersion '30.0.3'
     defaultConfig {
@@ -26,13 +35,14 @@ android {
             applicationVariants.all { variant ->
                 variant.outputs.all {
                     outputFileName = "KaizenVPN.apk"
+                        signingConfig signingConfigs.release
                 }
             }
         }
     }
     dataBinding{
         enabled true
-    }
+    }	
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
