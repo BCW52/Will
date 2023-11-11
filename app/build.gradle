@@ -13,6 +13,9 @@ android {
             keyAlias System.getenv("SIGNING_KEY_ALIAS")
             keyPassword System.getenv("SIGNING_KEY_PASSWORD") // This is the key pair password
             v2SigningEnabled true
+            packagingOptions {
+                compress = false
+            }
         }
     }
     compileSdkVersion 33

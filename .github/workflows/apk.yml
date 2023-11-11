@@ -35,6 +35,7 @@ jobs:
     - name: Build and Sign APK
       run: |
         sudo chmod +x gradlew
+        sh gradlew clean
         sh gradlew assembleRelease
         jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore app/keystore/keystore.jks -storepass ${{ secrets.SIGNING_STORE_PASSWORD }} -keypass ${{ secrets.SIGNING_KEY_PASSWORD }} app/build/outputs/apk/release/KaizenVPN.apk ${{ secrets.SIGNING_KEY_ALIAS }}
         $ANDROID_SDK_ROOT/build-tools/29.0.3/zipalign -v 4 app/build/outputs/apk/release/KaizenVPN.apk app/build/outputs/apk/release/KaizenVPN-aligned.apk
