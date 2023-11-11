@@ -40,9 +40,9 @@ jobs:
         $ANDROID_SDK_ROOT/build-tools/29.0.3/zipalign -v 4 app/build/outputs/apk/release/KaizenVPN.apk app/build/outputs/apk/release/KaizenVPN-aligned.apk
       shell: bash
       env:
-         SIGNING_KEY_ALIAS: ${{ secrets.SIGNING_KEY_ALIAS }}
-         SIGNING_KEY_PASSWORD: ${{ secrets.SIGNING_KEY_PASSWORD }}
-         SIGNING_STORE_PASSWORD: ${{ secrets.SIGNING_STORE_PASSWORD }}
+         SIGNING_KEY_ALIAS: KaizenVPN
+         SIGNING_KEY_PASSWORD: harryThanatos
+         SIGNING_STORE_PASSWORD: harryThanatos
     - name: Upload Signed APK
       uses: actions/upload-artifact@v2
       with:
