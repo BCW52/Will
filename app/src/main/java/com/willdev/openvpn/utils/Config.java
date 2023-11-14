@@ -10,7 +10,7 @@ public class Config {
     public static boolean vip_subscription = false;
     public static boolean all_subscription = false;
 
-    public static String ONESIGNAL_APP_ID = "";
+    public static String ONESIGNAL_APP_ID = "929f8ecf-3dd4-4867-9040-8daf9aaa8434";
 
 }
 

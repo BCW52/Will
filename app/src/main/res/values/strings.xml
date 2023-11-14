@@ -2,10 +2,10 @@
 <resources
     xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingTranslation" >
-    <string name="app_name">Will VPN App</string>
-    <string name="created_by">Created By Will_Dev</string>
-    <string name="play_more_app">https://willvpn.willdev.in/</string>
-    <string name="welcome_title_one">Will VPN</string>
+    <string name="app_name">Kaizen VPN</string>
+    <string name="created_by">Created By Dev Rahman</string>
+    <string name="play_more_app">https://devrahman.com/</string>
+    <string name="welcome_title_one">Kaizen VPN</string>
     <string name="loading_wait">Loading... please wait</string>
     <string name="navigation_drawer_open">drawer open</string>
     <string name="navigation_drawer_close">drawer close</string>

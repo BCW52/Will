@@ -9,7 +9,7 @@ import java.util.List;
 
 public class Constant {
 
-    public static final String My_api = "https://demo.ourservers.online/";   // Put your Base_URL
+    public static final String My_api = "https://vpn.kaizenvpn.com/";   // Put your Base_URL
 
 
     public static String url = My_api + "api.php";

@@ -1,7 +1,7 @@
 package com.willdev.openvpn.api;
 
 public class WillDevWebAPI {
-    public static String ADMIN_PANEL_API = "https://demo.ourservers.online/";    // Put your Base_URL
+    public static String ADMIN_PANEL_API = "https://vpn.kaizenvpn.com/";    // Put your Base_URL
     public static String FREE_SERVERS = "";
     public static String PREMIUM_SERVERS = "";
     public static String ADMOB_BANNER = "";

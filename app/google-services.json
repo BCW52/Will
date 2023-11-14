@@ -1,41 +1,33 @@
 {
   "project_info": {
-    "project_number": "1010832734218",
-    "project_id": "will-vpn-app-43b2f",
-    "storage_bucket": "will-vpn-app-43b2f.appspot.com"
+    "project_number": "321259501930",
+    "project_id": "kaizen-a225b",
+    "storage_bucket": "kaizen-a225b.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1010832734218:android:0f2984407e24a89d5787f3",
+        "mobilesdk_app_id": "1:321259501930:android:7a4f14dff59bb8ec03cd13",
         "android_client_info": {
-          "package_name": "com.willdev.openvpn"
+          "package_name": "com.kaizenvpn.vpn"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1010832734218-hhcacfelje1kplhrov53ct1rsk5cbs1u.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.willdev.openvpn",
-            "certificate_hash": "b38fe73002c5f356c8ab0efbeaccede78d31b9fb"
-          }
-        },
-        {
-          "client_id": "1010832734218-li3sjk6dtm6cfq944am3udrp3mp5sjdf.apps.googleusercontent.com",
+          "client_id": "321259501930-84v1mrj7ujlla2d3ctvpbblcacvf8p5u.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCm7P7xUVGB-fVSPGAuczwqNppEQl-b2kk"
+          "current_key": "AIzaSyDXoYxlF1TSV7YNerfK1NDfuRrwvM9w3oM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1010832734218-li3sjk6dtm6cfq944am3udrp3mp5sjdf.apps.googleusercontent.com",
+              "client_id": "321259501930-84v1mrj7ujlla2d3ctvpbblcacvf8p5u.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
