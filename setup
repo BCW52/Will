@@ -33,7 +33,6 @@ execute_command() {
 # Download and extract Flutter
 FLUTTER_VERSION=2.5.2-stable
 FLUTTER_URL="https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_${FLUTTER_VERSION}.tar.xz"
-cd ~
 execute_command "curl -o flutter.tar.xz $FLUTTER_URL" "log.txt"
 execute_command "tar xf flutter.tar.xz" "log.txt"
 export PATH="$PATH:`pwd`/flutter/bin"
@@ -51,8 +50,8 @@ execute_command "sudo apt-get install -y openjdk-11-jdk unzip zip" "log.txt"
 
 # Download and extract Android SDK
 cd ~
-# execute_command "curl -o android-sdk.zip https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip" "log.txt"
-# execute_command "unzip android-sdk.zip -d android-sdk" "log.txt"
+execute_command "curl -o android-sdk.zip https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip" "log.txt"
+execute_command "unzip android-sdk.zip -d android-sdk" "log.txt"
 # echo 'export PATH=${PATH}:~/android-sdk/tools/bin:~/android-sdk/sdk/platform-tools:~/android-sdk/sdk/build-tools/' >> ~/.bashrc
 # echo "export PATH=${PATH}:~/android-sdk/sdk/platform-tools" >> ~/.bashrc
 # echo "export ANDROID_HOME=~/android-sdk/sdk/" >> ~/.bashrc
