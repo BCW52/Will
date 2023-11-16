@@ -23,8 +23,26 @@ android {
         pickFirst '**/*.so'
     }
     buildTypes {
-
+        // ...
+        release {
+            // ...
+            applicationVariants.all { variant ->
+                variant.outputs.all {
+                    outputFileName = "KaizenVPN.apk"
+                        signingConfig signingConfigs.release
+                }
+            }
+        }
     }
+  
+    splits {
+        abi {
+            enable true
+            reset()
+            include 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
+        }
+    }
+}
     dataBinding{
         enabled true
     }
