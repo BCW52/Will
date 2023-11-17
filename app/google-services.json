@@ -9,10 +9,55 @@
       "client_info": {
         "mobilesdk_app_id": "1:321259501930:android:7a4f14dff59bb8ec03cd13",
         "android_client_info": {
+          "package_name": "com.kaizenvpn.vpn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321259501930-dsuekq8kn5o6tejlfhn69e8eqhhaua28.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kaizenvpn.vpn",
+            "certificate_hash": "cc79066bb564af5149729c26b8bb4d9ab6abb19d"
+          }
+        },
+        {
+          "client_id": "321259501930-84v1mrj7ujlla2d3ctvpbblcacvf8p5u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXoYxlF1TSV7YNerfK1NDfuRrwvM9w3oM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321259501930-84v1mrj7ujlla2d3ctvpbblcacvf8p5u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321259501930:android:ddbdbfd3099cc87203cd13",
+        "android_client_info": {
           "package_name": "com.willdev.openvpn"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "321259501930-6makijhejtbdfsq8q315s4io7gc2kr8r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.willdev.openvpn",
+            "certificate_hash": "cc79066bb564af5149729c26b8bb4d9ab6abb19d"
+          }
+        },
         {
           "client_id": "321259501930-84v1mrj7ujlla2d3ctvpbblcacvf8p5u.apps.googleusercontent.com",
           "client_type": 3

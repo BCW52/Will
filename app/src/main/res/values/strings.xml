@@ -59,7 +59,7 @@
     <string name="loading">Loading....</string>
     <string name="no_data_found">No Data Found</string>
     <string name="failed_try_again">Failed try again</string>
-    <string name="you_have_not_login">You have not login</string>
+    <string name="you_have_not_login">You are not logged in</string>
     <string name="logout_message">Are you sure you want to logout</string>
     <string name="wrong">Something went to wrong please try again later</string>
     <string name="internet_connection">Internet connection not available</string>
@@ -74,11 +74,11 @@
 
     <string name="skip">Skip</string>
     <string name="got_it">GOT IT</string>
-    <string name="welcome_title_two">Reward Points</string>
-    <string name="welcome_title_three">Unlimited Bandwidth Servers.</string>
-    <string name="welcome_description_one"><![CDATA[Refer and Earn the Points by sharing this application with your friends. ]]></string>
-    <string name="welcome_description_two"><![CDATA[Play Lucky Wheel and You have Chance to win the Points !! Hurry Up !!]]></string>
-    <string name="welcome_description_three">You can Unlock the Restigrated Website or Apps and Get Ride of Fastest Servers</string>
+    <string name="welcome_title_two">Get Rewards By Sharing</string>
+    <string name="welcome_title_three">Fastest Bandwidth Servers.</string>
+    <string name="welcome_description_one"><![CDATA[Share and Refer spread this application with your friends to get premium server taste for free. ]]></string>
+    <string name="welcome_description_two"><![CDATA[Share the best VPN app to your friend. A VPN that really works]]></string>
+    <string name="welcome_description_three">You can Unlock the restricted Website or Apps and Get Ride of Fastest Servers</string>
 
     <string name="logout">Logout</string>
     <string name="email">Enter Your Email</string>
