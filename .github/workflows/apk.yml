@@ -34,4 +34,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: app-release-signed
-        path: app/build/outputs/apk/release/KaizenVPN.apk
+        path: app/build/outputs/apk/release/app-armeabi-v7a-release-unsigned.apk
