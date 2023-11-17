@@ -25,14 +25,7 @@ android {
         pickFirst '**/*.so'
     }
     buildTypes {
-        release {
-            applicationVariants.all { variant ->
-                variant.outputs.all {
-                    outputFileName = "KaizenVPN.apk"
-                    
-                }
-            }
-        }
+      
     }
 
     splits {
