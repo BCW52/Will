@@ -1,4 +1,5 @@
-plugins {
+    
+  plugins {
     id 'com.onesignal.androidsdk.onesignal-gradle-plugin'
     // Other plugins here if pre-existing
     id 'com.android.application'
@@ -23,18 +24,16 @@ android {
         pickFirst '**/*.so'
     }
     buildTypes {
-        // ...
         release {
-            // ...
             applicationVariants.all { variant ->
                 variant.outputs.all {
                     outputFileName = "KaizenVPN.apk"
-                        signingConfig signingConfigs.release
+                    signingConfig signingConfigs.release
                 }
             }
         }
     }
-  
+
     splits {
         abi {
             enable true
@@ -42,7 +41,6 @@ android {
             include 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
         }
     }
-}
     dataBinding{
         enabled true
     }
