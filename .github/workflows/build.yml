@@ -33,7 +33,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
           name: app-release
-          path: app/build/outputs/apk/release/app-armeabi-v7a-release-unsigned.apk
+          path: app/build/outputs/apk/release/p-armeabi-v7a-release-unsigned.apk
                 app/build/outputs/apk/release/app-arm64-v8a-release-unsigned.apk
                 app/build/outputs/apk/release/app-x86-release-unsigned.apk
                 app/build/outputs/apk/release/app-x86_64-release-unsigned.apk
