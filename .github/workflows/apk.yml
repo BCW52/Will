@@ -28,7 +28,7 @@ jobs:
       run: |
         sudo chmod +x gradlew
         sh gradlew clean
-        sh gradlew assembleRelease
+        sudo sh gradlew assembleRelease
         ls -la app/build/outputs/apk/release/
     - name: Upload the signed APK artifact
       uses: actions/upload-artifact@v2
