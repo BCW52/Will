@@ -34,22 +34,22 @@
     <string name="more_app">More App</string>
     <string name="share_app">Share App</string>
     <string name="about_us">About Us</string>
-    <string name="vip_price_demo_data">$0.00</string>
+    <string name="vip_price_demo_data">$5.00</string>
     <string name="privacy_policy">Privacy Policy</string>
     <string name="setting">Settings</string>
     <string name="contact_us">Contact Us</string>
     <string name="faq">Faq</string>
     <string name="login">Login or Logout </string>
 
-    <string name="app_name_about_us">abcd</string>
+    <string name="app_name_about_us">Kaizen VPN</string>
     <string name="about_us_version">Version</string>
     <string name="about_us_version_text">1.0</string>
     <string name="about_us_Company">Company</string>
-    <string name="about_us_company_name">abcd</string>
+    <string name="about_us_company_name">Kaizen VPN</string>
     <string name="about_us_email">Email</string>
-    <string name="about_us_email_text">abcd@abcd.com</string>
+    <string name="about_us_email_text">kaizen@kaizenvpn.com</string>
     <string name="about_us_website">Website</string>
-    <string name="about_us_website_text">www.abcd.com</string>
+    <string name="about_us_website_text">www.kaizenvpn.com</string>
     <string name="about_us_contact">Contact</string>
     <string name="about_us_contact_text">1234567890</string>
     <string name="about_us_about">About</string>
