@@ -1,11 +1,11 @@
-package com.kaizenvpn.com.view;
+package com.kaizenvpn.vpn.view;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 
-import com.kaizenvpn.com.R;
+import com.kaizenvpn.vpn.R;
 
 import io.github.dreierf.materialintroscreen.MaterialIntroActivity;
 import io.github.dreierf.materialintroscreen.SlideFragmentBuilder;

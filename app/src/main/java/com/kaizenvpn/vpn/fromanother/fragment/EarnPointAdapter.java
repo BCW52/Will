@@ -1,4 +1,4 @@
-package com.kaizenvpn.com.fromanother.fragment;
+package com.kaizenvpn.vpn.fromanother.fragment;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -8,8 +8,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.kaizenvpn.com.R;
-import com.kaizenvpn.com.fromanother.item.EarnPointList;
+import com.kaizenvpn.vpn.R;
+import com.kaizenvpn.vpn.fromanother.item.EarnPointList;
 import com.google.android.material.textview.MaterialTextView;
 
 import java.util.List;

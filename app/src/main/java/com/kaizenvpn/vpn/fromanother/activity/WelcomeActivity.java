@@ -1,4 +1,4 @@
-package com.kaizenvpn.com.fromanother.activity;
+package com.kaizenvpn.vpn.fromanother.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -18,10 +18,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
-import com.kaizenvpn.com.R;
+import com.kaizenvpn.vpn.R;
 
-import com.kaizenvpn.com.fromanother.util.util.Method;
-import com.kaizenvpn.com.fromanother.util.util.PrefManager;
+import com.kaizenvpn.vpn.fromanother.util.util.Method;
+import com.kaizenvpn.vpn.fromanother.util.util.PrefManager;
 import com.google.android.material.textview.MaterialTextView;
 import com.startapp.sdk.adsbase.StartAppAd;
 

@@ -1,4 +1,4 @@
-package com.kaizenvpn.com.fromanother;
+package com.kaizenvpn.vpn.fromanother;
 
 import android.app.Activity;
 
@@ -7,8 +7,8 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-import com.kaizenvpn.com.fromanother.fragment.RewardCurrentFragment;
-import com.kaizenvpn.com.fromanother.fragment.URMoneyFragment;
+import com.kaizenvpn.vpn.fromanother.fragment.RewardCurrentFragment;
+import com.kaizenvpn.vpn.fromanother.fragment.URMoneyFragment;
 
 public class ViewpagerRewardAdapter extends FragmentPagerAdapter {
 

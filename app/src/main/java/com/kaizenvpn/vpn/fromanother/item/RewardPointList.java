@@ -1,4 +1,4 @@
-package com.kaizenvpn.com.fromanother.item;
+package com.kaizenvpn.vpn.fromanother.item;
 
 import java.io.Serializable;
 

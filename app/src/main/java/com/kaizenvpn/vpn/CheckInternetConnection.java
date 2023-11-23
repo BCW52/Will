@@ -1,4 +1,4 @@
-package com.kaizenvpn.com;
+package com.kaizenvpn.vpn;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

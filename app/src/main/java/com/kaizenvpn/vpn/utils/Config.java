@@ -1,4 +1,4 @@
-package com.kaizenvpn.com.utils;
+package com.kaizenvpn.vpn.utils;
 
 public class Config {
 

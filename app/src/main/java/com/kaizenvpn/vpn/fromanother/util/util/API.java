@@ -1,4 +1,4 @@
-package com.kaizenvpn.com.fromanother.util.util;
+package com.kaizenvpn.vpn.fromanother.util.util;
 
 import android.app.Activity;
 import android.content.Context;

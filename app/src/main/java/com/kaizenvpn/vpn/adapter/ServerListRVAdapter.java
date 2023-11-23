@@ -1,4 +1,4 @@
-package com.kaizenvpn.com.adapter;
+package com.kaizenvpn.vpn.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -12,9 +12,9 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.kaizenvpn.com.interfaces.NavItemClickListener;
-import com.kaizenvpn.com.model.Server;
-import com.kaizenvpn.com.R;
+import com.kaizenvpn.vpn.interfaces.NavItemClickListener;
+import com.kaizenvpn.vpn.model.Server;
+import com.kaizenvpn.vpn.R;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package com.kaizenvpn.com.fromanother.fragment;
+package com.kaizenvpn.vpn.fromanother.fragment;
 
 import android.content.Intent;
 import android.graphics.Typeface;
@@ -16,14 +16,14 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.viewpager.widget.ViewPager;
 
-import com.kaizenvpn.com.R;
-import com.kaizenvpn.com.fromanother.ViewpagerRewardAdapter;
-import com.kaizenvpn.com.fromanother.activity.RewardPointClaim;
-import com.kaizenvpn.com.fromanother.util.util.API;
-import com.kaizenvpn.com.fromanother.util.util.Constant;
-import com.kaizenvpn.com.fromanother.util.util.Events;
-import com.kaizenvpn.com.fromanother.util.util.GlobalBus;
-import com.kaizenvpn.com.fromanother.util.util.Method;
+import com.kaizenvpn.vpn.R;
+import com.kaizenvpn.vpn.fromanother.ViewpagerRewardAdapter;
+import com.kaizenvpn.vpn.fromanother.activity.RewardPointClaim;
+import com.kaizenvpn.vpn.fromanother.util.util.API;
+import com.kaizenvpn.vpn.fromanother.util.util.Constant;
+import com.kaizenvpn.vpn.fromanother.util.util.Events;
+import com.kaizenvpn.vpn.fromanother.util.util.GlobalBus;
+import com.kaizenvpn.vpn.fromanother.util.util.Method;
 import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.tabs.TabLayout;

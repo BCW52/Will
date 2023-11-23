@@ -1,4 +1,4 @@
-package com.kaizenvpn.com.fromanother.interfaces;
+package com.kaizenvpn.vpn.fromanother.interfaces;
 
 public interface LanguageIF {
 

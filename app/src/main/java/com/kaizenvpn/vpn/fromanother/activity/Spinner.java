@@ -1,4 +1,4 @@
-package com.kaizenvpn.com.fromanother.activity;
+package com.kaizenvpn.vpn.fromanother.activity;
 
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
@@ -17,11 +17,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
-import com.kaizenvpn.com.R;
-import com.kaizenvpn.com.fromanother.interfaces.VideoAd;
-import com.kaizenvpn.com.fromanother.util.util.API;
-import com.kaizenvpn.com.fromanother.util.util.Constant;
-import com.kaizenvpn.com.fromanother.util.util.Method;
+import com.kaizenvpn.vpn.R;
+import com.kaizenvpn.vpn.fromanother.interfaces.VideoAd;
+import com.kaizenvpn.vpn.fromanother.util.util.API;
+import com.kaizenvpn.vpn.fromanother.util.util.Constant;
+import com.kaizenvpn.vpn.fromanother.util.util.Method;
 import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.textview.MaterialTextView;
 import com.google.gson.Gson;

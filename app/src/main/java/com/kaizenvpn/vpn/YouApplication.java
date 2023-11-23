@@ -1,4 +1,4 @@
-package com.kaizenvpn.com;
+package com.kaizenvpn.vpn;
 
 import android.app.Application;
 import android.content.Context;
@@ -7,8 +7,8 @@ import android.os.StrictMode;
 import androidx.multidex.MultiDex;
 
 import com.facebook.ads.AudienceNetworkAds;
-import com.kaizenvpn.com.R;
-import com.kaizenvpn.com.utils.Config;
+import com.kaizenvpn.vpn.R;
+import com.kaizenvpn.vpn.utils.Config;
 import com.onesignal.OneSignal;
 
 import io.github.inflationx.calligraphy3.CalligraphyConfig;

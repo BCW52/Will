@@ -1,4 +1,4 @@
-package com.kaizenvpn.com.fromanother.activity;
+package com.kaizenvpn.vpn.fromanother.activity;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -11,10 +11,10 @@ import android.widget.ProgressBar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.kaizenvpn.com.R;
-import com.kaizenvpn.com.fromanother.util.util.API;
-import com.kaizenvpn.com.fromanother.util.util.Constant;
-import com.kaizenvpn.com.fromanother.util.util.Method;
+import com.kaizenvpn.vpn.R;
+import com.kaizenvpn.vpn.fromanother.util.util.API;
+import com.kaizenvpn.vpn.fromanother.util.util.Constant;
+import com.kaizenvpn.vpn.fromanother.util.util.Method;
 import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.textview.MaterialTextView;
 import com.google.gson.Gson;

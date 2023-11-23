@@ -1,12 +1,12 @@
-package com.kaizenvpn.com;
+package com.kaizenvpn.vpn;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.kaizenvpn.com.R;
-import com.kaizenvpn.com.model.Server;
+import com.kaizenvpn.vpn.R;
+import com.kaizenvpn.vpn.model.Server;
 
-import static com.kaizenvpn.com.Utils.getImgURL;
+import static com.kaizenvpn.vpn.Utils.getImgURL;
 
 public class SharedPreference {
 

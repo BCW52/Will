@@ -1,6 +1,6 @@
-package com.kaizenvpn.com.interfaces;
+package com.kaizenvpn.vpn.interfaces;
 
-import com.kaizenvpn.com.model.Server;
+import com.kaizenvpn.vpn.model.Server;
 
 public interface ChangeServer {
     void newServer(Server server);

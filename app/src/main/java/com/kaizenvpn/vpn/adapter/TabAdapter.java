@@ -1,4 +1,4 @@
-package com.kaizenvpn.com.adapter;
+package com.kaizenvpn.vpn.adapter;
 
 
 import androidx.annotation.Nullable;

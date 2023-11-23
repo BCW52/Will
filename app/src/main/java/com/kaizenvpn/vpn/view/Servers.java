@@ -1,4 +1,4 @@
-package com.kaizenvpn.com.view;
+package com.kaizenvpn.vpn.view;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -9,9 +9,9 @@ import android.view.View;
 
 import com.facebook.ads.Ads;
 import com.google.android.material.tabs.TabLayout;
-import com.kaizenvpn.com.api.WillDevWebAPI;
-import com.kaizenvpn.com.R;
-import com.kaizenvpn.com.adapter.TabAdapter;
+import com.kaizenvpn.vpn.api.WillDevWebAPI;
+import com.kaizenvpn.vpn.R;
+import com.kaizenvpn.vpn.adapter.TabAdapter;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;

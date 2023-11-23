@@ -1,4 +1,4 @@
-package com.kaizenvpn.com.view;
+package com.kaizenvpn.vpn.view;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -24,10 +24,10 @@ import com.android.billingclient.api.ProductDetailsResponseListener;
 import com.android.billingclient.api.Purchase;
 import com.android.billingclient.api.PurchasesUpdatedListener;
 import com.android.billingclient.api.QueryProductDetailsParams;
-import com.kaizenvpn.com.R;
-import com.kaizenvpn.com.api.WillDevWebAPI;
-import com.kaizenvpn.com.model.SubscriptionPlans;
-import com.kaizenvpn.com.utils.Config;
+import com.kaizenvpn.vpn.R;
+import com.kaizenvpn.vpn.api.WillDevWebAPI;
+import com.kaizenvpn.vpn.model.SubscriptionPlans;
+import com.kaizenvpn.vpn.utils.Config;
 
 import java.io.IOException;
 import java.util.ArrayList;

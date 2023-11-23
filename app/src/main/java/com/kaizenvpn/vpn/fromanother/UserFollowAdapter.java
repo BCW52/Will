@@ -1,4 +1,4 @@
-package com.kaizenvpn.com.fromanother;
+package com.kaizenvpn.vpn.fromanother;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -12,10 +12,10 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.kaizenvpn.com.R;
-import com.kaizenvpn.com.fromanother.interfaces.OnClick;
-import com.kaizenvpn.com.fromanother.item.UserFollowList;
-import com.kaizenvpn.com.fromanother.util.util.Method;
+import com.kaizenvpn.vpn.R;
+import com.kaizenvpn.vpn.fromanother.interfaces.OnClick;
+import com.kaizenvpn.vpn.fromanother.item.UserFollowList;
+import com.kaizenvpn.vpn.fromanother.util.util.Method;
 import com.google.android.material.textview.MaterialTextView;
 
 import java.util.List;

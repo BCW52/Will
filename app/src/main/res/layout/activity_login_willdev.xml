@@ -8,7 +8,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context="com.kaizenvpn.com.activity.Login">
+        tools:context="com.kaizenvpn.vpn.activity.Login">
 
         <ImageView
             android:layout_width="match_parent"

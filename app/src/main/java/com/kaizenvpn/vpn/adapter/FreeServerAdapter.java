@@ -1,4 +1,4 @@
-package com.kaizenvpn.com.adapter;
+package com.kaizenvpn.vpn.adapter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -36,9 +36,9 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.LoadAdError;
-import com.kaizenvpn.com.R;
-import com.kaizenvpn.com.api.WillDevWebAPI;
-import com.kaizenvpn.com.model.Server;
+import com.kaizenvpn.vpn.R;
+import com.kaizenvpn.vpn.api.WillDevWebAPI;
+import com.kaizenvpn.vpn.model.Server;
 import com.startapp.sdk.ads.banner.Banner;
 import com.unity3d.services.banners.BannerErrorInfo;
 import com.unity3d.services.banners.BannerView;

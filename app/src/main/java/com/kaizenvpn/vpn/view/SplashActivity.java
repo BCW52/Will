@@ -1,4 +1,4 @@
-package com.kaizenvpn.com.view;
+package com.kaizenvpn.vpn.view;
 
 import android.content.Intent;
 import android.content.pm.ApplicationInfo;
@@ -11,8 +11,8 @@ import android.util.Log;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 
-import com.kaizenvpn.com.api.WillDevWebAPI;
-import com.kaizenvpn.com.R;
+import com.kaizenvpn.vpn.api.WillDevWebAPI;
+import com.kaizenvpn.vpn.R;
 import com.startapp.sdk.adsbase.StartAppAd;
 
 import org.json.JSONArray;

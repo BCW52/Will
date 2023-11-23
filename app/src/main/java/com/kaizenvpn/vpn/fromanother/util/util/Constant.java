@@ -1,8 +1,8 @@
-package com.kaizenvpn.com.fromanother.util.util;
+package com.kaizenvpn.vpn.fromanother.util.util;
 
 import android.os.Environment;
 
-import com.kaizenvpn.com.fromanother.item.AboutUsList;
+import com.kaizenvpn.vpn.fromanother.item.AboutUsList;
 
 import java.io.File;
 import java.util.List;

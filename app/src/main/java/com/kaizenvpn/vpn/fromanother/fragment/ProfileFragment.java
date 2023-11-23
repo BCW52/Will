@@ -1,4 +1,4 @@
-package com.kaizenvpn.com.fromanother.fragment;
+package com.kaizenvpn.vpn.fromanother.fragment;
 
 
 import android.annotation.SuppressLint;
@@ -29,11 +29,11 @@ import androidx.core.view.MenuItemCompat;
 import androidx.fragment.app.Fragment;
 
 import com.bumptech.glide.Glide;
-import com.kaizenvpn.com.R;
-import com.kaizenvpn.com.fromanother.item.ProfileList;
-import com.kaizenvpn.com.fromanother.util.util.API;
-import com.kaizenvpn.com.fromanother.util.util.Constant;
-import com.kaizenvpn.com.fromanother.util.util.Method;
+import com.kaizenvpn.vpn.R;
+import com.kaizenvpn.vpn.fromanother.item.ProfileList;
+import com.kaizenvpn.vpn.fromanother.util.util.API;
+import com.kaizenvpn.vpn.fromanother.util.util.Constant;
+import com.kaizenvpn.vpn.fromanother.util.util.Method;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.textview.MaterialTextView;
@@ -42,7 +42,7 @@ import com.google.gson.JsonObject;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
-import com.kaizenvpn.com.view.MainActivity;
+import com.kaizenvpn.vpn.view.MainActivity;
 
 import org.json.JSONException;
 import org.json.JSONObject;

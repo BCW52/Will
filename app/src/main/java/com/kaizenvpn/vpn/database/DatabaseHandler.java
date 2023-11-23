@@ -1,4 +1,4 @@
-package com.kaizenvpn.com.database;
+package com.kaizenvpn.vpn.database;
 
 
 import android.content.Context;

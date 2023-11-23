@@ -1,4 +1,4 @@
-package com.kaizenvpn.com.fromanother.fragment;
+package com.kaizenvpn.vpn.fromanother.fragment;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -14,12 +14,12 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.kaizenvpn.com.R;
-import com.kaizenvpn.com.fromanother.RewardPointAdapter;
-import com.kaizenvpn.com.fromanother.item.RewardPointList;
-import com.kaizenvpn.com.fromanother.util.util.API;
-import com.kaizenvpn.com.fromanother.util.util.Constant;
-import com.kaizenvpn.com.fromanother.util.util.Method;
+import com.kaizenvpn.vpn.R;
+import com.kaizenvpn.vpn.fromanother.RewardPointAdapter;
+import com.kaizenvpn.vpn.fromanother.item.RewardPointList;
+import com.kaizenvpn.vpn.fromanother.util.util.API;
+import com.kaizenvpn.vpn.fromanother.util.util.Constant;
+import com.kaizenvpn.vpn.fromanother.util.util.Method;
 import com.google.android.material.textview.MaterialTextView;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;

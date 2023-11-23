@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.kaizenvpn.com">
+    package="com.kaizenvpn.vpn">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -9,7 +9,7 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
     <application
-        android:name="com.kaizenvpn.com.YouApplication"
+        android:name="com.kaizenvpn.vpn.YouApplication"
         android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:hardwareAccelerated="true"
@@ -18,28 +18,28 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:networkSecurityConfig="@xml/network_security_config">
-        <activity android:name="com.kaizenvpn.com.view.MainActivity">
+        <activity android:name="com.kaizenvpn.vpn.view.MainActivity">
         </activity>
-        <activity android:name="com.kaizenvpn.com.view.IntroActivity">
+        <activity android:name="com.kaizenvpn.vpn.view.IntroActivity">
         </activity>
-        <activity android:name="com.kaizenvpn.com.fromanother.activity.Login"/>
-        <activity android:name="com.kaizenvpn.com.fromanother.activity.TDView"/>
-        <activity android:name="com.kaizenvpn.com.fromanother.activity.EnterReferenceCode"/>
-        <activity android:name="com.kaizenvpn.com.fromanother.activity.RewardPointClaim"/>
-        <activity android:name="com.kaizenvpn.com.fromanother.activity.Verification"/>
-        <activity android:name="com.kaizenvpn.com.fromanother.activity.Spinner"/>
-        <activity android:name="com.kaizenvpn.com.fromanother.activity.AboutUs"/>
+        <activity android:name="com.kaizenvpn.vpn.fromanother.activity.Login"/>
+        <activity android:name="com.kaizenvpn.vpn.fromanother.activity.TDView"/>
+        <activity android:name="com.kaizenvpn.vpn.fromanother.activity.EnterReferenceCode"/>
+        <activity android:name="com.kaizenvpn.vpn.fromanother.activity.RewardPointClaim"/>
+        <activity android:name="com.kaizenvpn.vpn.fromanother.activity.Verification"/>
+        <activity android:name="com.kaizenvpn.vpn.fromanother.activity.Spinner"/>
+        <activity android:name="com.kaizenvpn.vpn.fromanother.activity.AboutUs"/>
 
-        <activity android:name="com.kaizenvpn.com.fromanother.activity.ContactUs"/>
-        <activity android:name="com.kaizenvpn.com.fromanother.activity.PrivacyPolice"/>
-        <activity android:name="com.kaizenvpn.com.fromanother.activity.Faq"/>
-        <activity android:name="com.kaizenvpn.com.fromanother.activity.EarnPoint"/>
-        <activity android:name="com.kaizenvpn.com.fromanother.activity.ForgetPassword"/>
-        <activity android:name="com.kaizenvpn.com.fromanother.activity.Register"/>
-        <activity android:name="com.kaizenvpn.com.fromanother.activity.SplashScreen"/>
-        <activity android:name="com.kaizenvpn.com.view.Servers">
+        <activity android:name="com.kaizenvpn.vpn.fromanother.activity.ContactUs"/>
+        <activity android:name="com.kaizenvpn.vpn.fromanother.activity.PrivacyPolice"/>
+        <activity android:name="com.kaizenvpn.vpn.fromanother.activity.Faq"/>
+        <activity android:name="com.kaizenvpn.vpn.fromanother.activity.EarnPoint"/>
+        <activity android:name="com.kaizenvpn.vpn.fromanother.activity.ForgetPassword"/>
+        <activity android:name="com.kaizenvpn.vpn.fromanother.activity.Register"/>
+        <activity android:name="com.kaizenvpn.vpn.fromanother.activity.SplashScreen"/>
+        <activity android:name="com.kaizenvpn.vpn.view.Servers">
         </activity>
-        <activity android:name="com.kaizenvpn.com.fromanother.activity.WelcomeActivity"
+        <activity android:name="com.kaizenvpn.vpn.fromanother.activity.WelcomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -61,7 +61,7 @@
             <action android:name="android.net.VpnService" />
         </intent-filter>
     </service>
-        <activity android:name="com.kaizenvpn.com.view.PurchaseActivity"/>
+        <activity android:name="com.kaizenvpn.vpn.view.PurchaseActivity"/>
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"

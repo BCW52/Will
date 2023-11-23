@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     android:orientation="vertical"
-    tools:context="com.kaizenvpn.com.view.MainActivity"
+    tools:context="com.kaizenvpn.vpn.view.MainActivity"
     tools:openDrawer="start">
 
     <FrameLayout

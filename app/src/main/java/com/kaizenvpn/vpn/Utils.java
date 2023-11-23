@@ -1,8 +1,8 @@
-package com.kaizenvpn.com;
+package com.kaizenvpn.vpn;
 
 import android.net.Uri;
 
-import com.kaizenvpn.com.BuildConfig;
+import com.kaizenvpn.vpn.BuildConfig;
 
 public class Utils {
 
