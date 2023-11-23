@@ -1,4 +1,4 @@
-package com.willdev.openvpn.view;
+package com.kaizenvpn.com.view;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -9,9 +9,9 @@ import android.view.View;
 
 import com.facebook.ads.Ads;
 import com.google.android.material.tabs.TabLayout;
-import com.willdev.openvpn.api.WillDevWebAPI;
-import com.willdev.openvpn.R;
-import com.willdev.openvpn.adapter.TabAdapter;
+import com.kaizenvpn.com.api.WillDevWebAPI;
+import com.kaizenvpn.com.R;
+import com.kaizenvpn.com.adapter.TabAdapter;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;

@@ -1,4 +1,4 @@
-package com.willdev.openvpn;
+package com.kaizenvpn.com;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

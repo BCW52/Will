@@ -1,4 +1,4 @@
-package com.willdev.openvpn.model;
+package com.kaizenvpn.com.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;

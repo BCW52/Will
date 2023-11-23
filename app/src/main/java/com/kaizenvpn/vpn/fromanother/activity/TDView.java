@@ -1,4 +1,4 @@
-package com.willdev.openvpn.fromanother.activity;
+package com.kaizenvpn.com.fromanother.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,9 +13,9 @@ import android.widget.LinearLayout;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.bumptech.glide.Glide;
-import com.willdev.openvpn.R;
-import com.willdev.openvpn.fromanother.util.util.Method;
-import com.willdev.openvpn.fromanother.util.util.TouchImageView;
+import com.kaizenvpn.com.R;
+import com.kaizenvpn.com.fromanother.util.util.Method;
+import com.kaizenvpn.com.fromanother.util.util.TouchImageView;
 import com.google.android.material.appbar.MaterialToolbar;
 
 import io.github.inflationx.viewpump.ViewPumpContextWrapper;

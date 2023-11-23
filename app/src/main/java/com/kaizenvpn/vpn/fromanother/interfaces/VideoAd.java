@@ -1,4 +1,4 @@
-package com.willdev.openvpn.fromanother.interfaces;
+package com.kaizenvpn.com.fromanother.interfaces;
 
 public interface VideoAd {
 

@@ -1,6 +1,6 @@
-package com.willdev.openvpn.interfaces;
+package com.kaizenvpn.com.interfaces;
 
-import com.willdev.openvpn.model.Server;
+import com.kaizenvpn.com.model.Server;
 
 public interface ChangeServer {
     void newServer(Server server);

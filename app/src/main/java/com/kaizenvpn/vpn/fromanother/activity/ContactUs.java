@@ -1,4 +1,4 @@
-package com.willdev.openvpn.fromanother.activity;
+package com.kaizenvpn.com.fromanother.activity;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -14,11 +14,11 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.willdev.openvpn.R;
-import com.willdev.openvpn.fromanother.item.ContactList;
-import com.willdev.openvpn.fromanother.util.util.API;
-import com.willdev.openvpn.fromanother.util.util.Constant;
-import com.willdev.openvpn.fromanother.util.util.Method;
+import com.kaizenvpn.com.R;
+import com.kaizenvpn.com.fromanother.item.ContactList;
+import com.kaizenvpn.com.fromanother.util.util.API;
+import com.kaizenvpn.com.fromanother.util.util.Constant;
+import com.kaizenvpn.com.fromanother.util.util.Method;
 import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.textfield.TextInputEditText;

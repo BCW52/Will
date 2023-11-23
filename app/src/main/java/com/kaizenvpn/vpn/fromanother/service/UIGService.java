@@ -1,4 +1,4 @@
-package com.willdev.openvpn.fromanother.service;
+package com.kaizenvpn.com.fromanother.service;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -18,12 +18,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
 
-import com.willdev.openvpn.R;
-import com.willdev.openvpn.fromanother.util.util.API;
-import com.willdev.openvpn.fromanother.util.util.Constant;
-import com.willdev.openvpn.fromanother.util.util.Events;
-import com.willdev.openvpn.fromanother.util.util.GlobalBus;
-import com.willdev.openvpn.fromanother.util.util.Method;
+import com.kaizenvpn.com.R;
+import com.kaizenvpn.com.fromanother.util.util.API;
+import com.kaizenvpn.com.fromanother.util.util.Constant;
+import com.kaizenvpn.com.fromanother.util.util.Events;
+import com.kaizenvpn.com.fromanother.util.util.GlobalBus;
+import com.kaizenvpn.com.fromanother.util.util.Method;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 

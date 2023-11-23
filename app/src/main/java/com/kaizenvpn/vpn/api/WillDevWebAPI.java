@@ -1,4 +1,4 @@
-package com.willdev.openvpn.api;
+package com.kaizenvpn.com.api;
 
 public class WillDevWebAPI {
     public static String ADMIN_PANEL_API = "https://vpn.kaizenvpn.com/";    // Put your Base_URL

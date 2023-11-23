@@ -1,4 +1,4 @@
-package com.willdev.openvpn.fromanother.fragment;
+package com.kaizenvpn.com.fromanother.fragment;
 
 import android.app.Activity;
 import android.content.Context;
@@ -21,10 +21,10 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import com.bumptech.glide.Glide;
-import com.willdev.openvpn.R;
-import com.willdev.openvpn.fromanother.util.util.API;
-import com.willdev.openvpn.fromanother.util.util.Constant;
-import com.willdev.openvpn.fromanother.util.util.Method;
+import com.kaizenvpn.com.R;
+import com.kaizenvpn.com.fromanother.util.util.API;
+import com.kaizenvpn.com.fromanother.util.util.Constant;
+import com.kaizenvpn.com.fromanother.util.util.Method;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;

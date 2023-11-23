@@ -1,4 +1,4 @@
-package com.willdev.openvpn.fromanother.item;
+package com.kaizenvpn.com.fromanother.item;
 
 import java.io.Serializable;
 

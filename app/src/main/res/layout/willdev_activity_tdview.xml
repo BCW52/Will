@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context="com.willdev.openvpn.fromanother.activity.TDView">
+    tools:context="com.kaizenvpn.com.fromanother.activity.TDView">
 
-    <com.willdev.openvpn.fromanother.util.util.TouchImageView
+    <com.kaizenvpn.com.fromanother.util.util.TouchImageView
         android:id="@+id/imagView_tdview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -21,7 +21,7 @@
         android:layout_alignParentBottom="true"
         android:orientation="vertical" />
 
-    <com.willdev.openvpn.fromanother.util.util.StatusBarView
+    <com.kaizenvpn.com.fromanother.util.util.StatusBarView
         android:id="@+id/statusBarView_tdview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

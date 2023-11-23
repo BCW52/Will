@@ -1,4 +1,4 @@
-package com.willdev.openvpn.interfaces;
+package com.kaizenvpn.com.interfaces;
 
 public interface NavItemClickListener {
     void clickedItem(int index);

@@ -1,4 +1,4 @@
-package com.willdev.openvpn.fromanother.fragment;
+package com.kaizenvpn.com.fromanother.fragment;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -14,12 +14,12 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.willdev.openvpn.R;
-import com.willdev.openvpn.fromanother.RewardPointAdapter;
-import com.willdev.openvpn.fromanother.item.RewardPointList;
-import com.willdev.openvpn.fromanother.util.util.API;
-import com.willdev.openvpn.fromanother.util.util.Constant;
-import com.willdev.openvpn.fromanother.util.util.Method;
+import com.kaizenvpn.com.R;
+import com.kaizenvpn.com.fromanother.RewardPointAdapter;
+import com.kaizenvpn.com.fromanother.item.RewardPointList;
+import com.kaizenvpn.com.fromanother.util.util.API;
+import com.kaizenvpn.com.fromanother.util.util.Constant;
+import com.kaizenvpn.com.fromanother.util.util.Method;
 import com.google.android.material.textview.MaterialTextView;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;

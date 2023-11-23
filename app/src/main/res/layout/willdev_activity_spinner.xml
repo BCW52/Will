@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.willdev.openvpn.fromanother.activity.Spinner">
+    tools:context="com.kaizenvpn.com.fromanother.activity.Spinner">
 
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/toolbar_spinner"

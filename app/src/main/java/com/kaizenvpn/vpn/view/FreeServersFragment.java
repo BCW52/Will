@@ -1,4 +1,4 @@
-package com.willdev.openvpn.view;
+package com.kaizenvpn.com.view;
 
 import android.content.Context;
 import android.content.Intent;
@@ -22,10 +22,10 @@ import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.initialization.AdapterStatus;
 import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
-import com.willdev.openvpn.R;
-import com.willdev.openvpn.adapter.NativeAdRecyclerAdapter;
-import com.willdev.openvpn.api.WillDevWebAPI;
-import com.willdev.openvpn.model.Server;
+import com.kaizenvpn.com.R;
+import com.kaizenvpn.com.adapter.NativeAdRecyclerAdapter;
+import com.kaizenvpn.com.api.WillDevWebAPI;
+import com.kaizenvpn.com.model.Server;
 import com.victor.loading.rotate.RotateLoading;
 
 import org.json.JSONArray;

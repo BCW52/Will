@@ -1,8 +1,8 @@
-package com.willdev.openvpn;
+package com.kaizenvpn.com;
 
 import android.net.Uri;
 
-import com.willdev.openvpn.BuildConfig;
+import com.kaizenvpn.com.BuildConfig;
 
 public class Utils {
 

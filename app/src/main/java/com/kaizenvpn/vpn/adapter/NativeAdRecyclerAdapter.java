@@ -1,4 +1,4 @@
-package com.willdev.openvpn.adapter;
+package com.kaizenvpn.com.adapter;
 
 
 import android.app.Activity;
@@ -17,9 +17,9 @@ import com.facebook.ads.MediaView;
 import com.facebook.ads.NativeAd;
 import com.facebook.ads.NativeAdLayout;
 import com.facebook.ads.NativeAdsManager;
-import com.willdev.openvpn.R;
-import com.willdev.openvpn.model.Server;
-import com.willdev.openvpn.utils.Config;
+import com.kaizenvpn.com.R;
+import com.kaizenvpn.com.model.Server;
+import com.kaizenvpn.com.utils.Config;
 
 import java.util.ArrayList;
 import java.util.List;

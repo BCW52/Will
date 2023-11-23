@@ -1,4 +1,4 @@
-package com.willdev.openvpn.fromanother.util.util;
+package com.kaizenvpn.com.fromanother.util.util;
 
 import android.app.Activity;
 import android.content.Context;

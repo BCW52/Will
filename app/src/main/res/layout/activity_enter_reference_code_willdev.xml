@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/app_background"
-    tools:context="com.willdev.openvpn.fromanother.activity.EnterReferenceCode">
+    tools:context="com.kaizenvpn.com.fromanother.activity.EnterReferenceCode">
 
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/toolbar_erc"

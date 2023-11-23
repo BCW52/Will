@@ -1,4 +1,4 @@
-package com.willdev.openvpn.view;
+package com.kaizenvpn.com.view;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -35,11 +35,11 @@ import com.appodeal.ads.Appodeal;
 import com.appodeal.ads.RewardedVideoCallbacks;
 import com.unity3d.ads.IUnityAdsInitializationListener;
 import com.unity3d.ads.IUnityAdsLoadListener;
-import com.willdev.openvpn.api.WillDevWebAPI;
-import com.willdev.openvpn.R;
-import com.willdev.openvpn.adapter.VipServerAdapter;
-import com.willdev.openvpn.model.Server;
-import com.willdev.openvpn.utils.Config;
+import com.kaizenvpn.com.api.WillDevWebAPI;
+import com.kaizenvpn.com.R;
+import com.kaizenvpn.com.adapter.VipServerAdapter;
+import com.kaizenvpn.com.model.Server;
+import com.kaizenvpn.com.utils.Config;
 import com.facebook.ads.Ad;
 import com.facebook.ads.AdError;
 import com.facebook.ads.RewardedVideoAd;

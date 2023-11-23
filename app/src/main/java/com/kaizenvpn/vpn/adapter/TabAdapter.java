@@ -1,4 +1,4 @@
-package com.willdev.openvpn.adapter;
+package com.kaizenvpn.com.adapter;
 
 
 import androidx.annotation.Nullable;

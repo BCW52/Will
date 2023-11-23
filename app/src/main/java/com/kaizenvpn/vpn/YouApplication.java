@@ -1,4 +1,4 @@
-package com.willdev.openvpn;
+package com.kaizenvpn.com;
 
 import android.app.Application;
 import android.content.Context;
@@ -7,8 +7,8 @@ import android.os.StrictMode;
 import androidx.multidex.MultiDex;
 
 import com.facebook.ads.AudienceNetworkAds;
-import com.willdev.openvpn.R;
-import com.willdev.openvpn.utils.Config;
+import com.kaizenvpn.com.R;
+import com.kaizenvpn.com.utils.Config;
 import com.onesignal.OneSignal;
 
 import io.github.inflationx.calligraphy3.CalligraphyConfig;

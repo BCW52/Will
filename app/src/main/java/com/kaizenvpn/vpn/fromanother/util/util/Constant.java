@@ -1,8 +1,8 @@
-package com.willdev.openvpn.fromanother.util.util;
+package com.kaizenvpn.com.fromanother.util.util;
 
 import android.os.Environment;
 
-import com.willdev.openvpn.fromanother.item.AboutUsList;
+import com.kaizenvpn.com.fromanother.item.AboutUsList;
 
 import java.io.File;
 import java.util.List;

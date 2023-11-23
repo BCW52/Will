@@ -1,4 +1,4 @@
-package com.willdev.openvpn.fromanother.fragment;
+package com.kaizenvpn.com.fromanother.fragment;
 
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
@@ -19,11 +19,11 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
-import com.willdev.openvpn.R;
-import com.willdev.openvpn.fromanother.activity.AccountVerification;
-import com.willdev.openvpn.fromanother.util.util.API;
-import com.willdev.openvpn.fromanother.util.util.Constant;
-import com.willdev.openvpn.fromanother.util.util.Method;
+import com.kaizenvpn.com.R;
+import com.kaizenvpn.com.fromanother.activity.AccountVerification;
+import com.kaizenvpn.com.fromanother.util.util.API;
+import com.kaizenvpn.com.fromanother.util.util.Constant;
+import com.kaizenvpn.com.fromanother.util.util.Method;
 import com.google.android.material.switchmaterial.SwitchMaterial;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;

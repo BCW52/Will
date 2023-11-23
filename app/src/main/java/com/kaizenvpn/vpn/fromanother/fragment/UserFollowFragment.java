@@ -1,4 +1,4 @@
-package com.willdev.openvpn.fromanother.fragment;
+package com.kaizenvpn.com.fromanother.fragment;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -20,15 +20,15 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.willdev.openvpn.R;
+import com.kaizenvpn.com.R;
 
-import com.willdev.openvpn.fromanother.UserFollowAdapter;
-import com.willdev.openvpn.fromanother.interfaces.OnClick;
-import com.willdev.openvpn.fromanother.item.UserFollowList;
-import com.willdev.openvpn.fromanother.util.util.API;
-import com.willdev.openvpn.fromanother.util.util.Constant;
-import com.willdev.openvpn.fromanother.util.util.EndlessRecyclerViewScrollListener;
-import com.willdev.openvpn.fromanother.util.util.Method;
+import com.kaizenvpn.com.fromanother.UserFollowAdapter;
+import com.kaizenvpn.com.fromanother.interfaces.OnClick;
+import com.kaizenvpn.com.fromanother.item.UserFollowList;
+import com.kaizenvpn.com.fromanother.util.util.API;
+import com.kaizenvpn.com.fromanother.util.util.Constant;
+import com.kaizenvpn.com.fromanother.util.util.EndlessRecyclerViewScrollListener;
+import com.kaizenvpn.com.fromanother.util.util.Method;
 import com.google.android.material.textview.MaterialTextView;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;

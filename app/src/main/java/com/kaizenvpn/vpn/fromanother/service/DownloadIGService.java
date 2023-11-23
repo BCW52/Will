@@ -1,4 +1,4 @@
-package com.willdev.openvpn.fromanother.service;
+package com.kaizenvpn.com.fromanother.service;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -20,9 +20,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
 
-import com.willdev.openvpn.R;
-import com.willdev.openvpn.database.DatabaseHandler;
-import com.willdev.openvpn.fromanother.util.util.Method;
+import com.kaizenvpn.com.R;
+import com.kaizenvpn.com.database.DatabaseHandler;
+import com.kaizenvpn.com.fromanother.util.util.Method;
 
 import java.io.File;
 import java.io.IOException;

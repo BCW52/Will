@@ -1,4 +1,4 @@
-package com.willdev.openvpn.fromanother.activity;
+package com.kaizenvpn.com.fromanother.activity;
 
 import android.content.Intent;
 import android.content.pm.ApplicationInfo;
@@ -18,13 +18,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 
 import com.facebook.ads.Ads;
-import com.willdev.openvpn.api.WillDevWebAPI;
-import com.willdev.openvpn.R;
-import com.willdev.openvpn.fromanother.util.util.API;
-import com.willdev.openvpn.fromanother.util.util.Constant;
-import com.willdev.openvpn.fromanother.util.util.Method;
-import com.willdev.openvpn.utils.Config;
-import com.willdev.openvpn.view.MainActivity;
+import com.kaizenvpn.com.api.WillDevWebAPI;
+import com.kaizenvpn.com.R;
+import com.kaizenvpn.com.fromanother.util.util.API;
+import com.kaizenvpn.com.fromanother.util.util.Constant;
+import com.kaizenvpn.com.fromanother.util.util.Method;
+import com.kaizenvpn.com.utils.Config;
+import com.kaizenvpn.com.view.MainActivity;
 import com.facebook.AccessToken;
 import com.facebook.login.LoginManager;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
@@ -40,7 +40,7 @@ import com.loopj.android.http.RequestParams;
 //import com.onesignal.OSPermissionSubscriptionState;
 import com.onesignal.OneSignal;
 import com.startapp.sdk.adsbase.StartAppAd;
-import com.willdev.openvpn.view.Servers;
+import com.kaizenvpn.com.view.Servers;
 
 import org.json.JSONArray;
 import org.json.JSONException;

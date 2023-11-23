@@ -1,4 +1,4 @@
-package com.willdev.openvpn.adapter;
+package com.kaizenvpn.com.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -11,8 +11,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.willdev.openvpn.R;
-import com.willdev.openvpn.model.Server;
+import com.kaizenvpn.com.R;
+import com.kaizenvpn.com.model.Server;
 
 import java.util.ArrayList;
 import java.util.List;

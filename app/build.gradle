@@ -13,7 +13,7 @@ android {
     compileSdkVersion 33
     buildToolsVersion '30.0.3'
     defaultConfig {
-        applicationId 'com.willdev.openvpn'
+        applicationId 'com.kaizenvpn.com'
         minSdkVersion 21
         targetSdkVersion 33
         versionCode 8

@@ -1,4 +1,4 @@
-package com.willdev.openvpn.utils;
+package com.kaizenvpn.com.utils;
 
 public class Config {
 

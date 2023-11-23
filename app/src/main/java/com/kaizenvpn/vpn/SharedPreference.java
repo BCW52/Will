@@ -1,12 +1,12 @@
-package com.willdev.openvpn;
+package com.kaizenvpn.com;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.willdev.openvpn.R;
-import com.willdev.openvpn.model.Server;
+import com.kaizenvpn.com.R;
+import com.kaizenvpn.com.model.Server;
 
-import static com.willdev.openvpn.Utils.getImgURL;
+import static com.kaizenvpn.com.Utils.getImgURL;
 
 public class SharedPreference {
 

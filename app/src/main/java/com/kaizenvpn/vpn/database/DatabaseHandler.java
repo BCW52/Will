@@ -1,4 +1,4 @@
-package com.willdev.openvpn.database;
+package com.kaizenvpn.com.database;
 
 
 import android.content.Context;

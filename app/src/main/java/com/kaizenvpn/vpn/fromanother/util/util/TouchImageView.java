@@ -1,6 +1,6 @@
 
 
-package com.willdev.openvpn.fromanother.util.util;
+package com.kaizenvpn.com.fromanother.util.util;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;

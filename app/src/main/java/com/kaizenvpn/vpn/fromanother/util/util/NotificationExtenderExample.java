@@ -1,4 +1,4 @@
-package com.willdev.openvpn.fromanother.util.util;
+package com.kaizenvpn.com.fromanother.util.util;
 
 //import com.onesignal.NotificationExtenderService;
 //import com.onesignal.OSNotificationReceivedResult;

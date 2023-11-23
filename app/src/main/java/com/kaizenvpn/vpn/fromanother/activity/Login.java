@@ -1,4 +1,4 @@
-package com.willdev.openvpn.fromanother.activity;
+package com.kaizenvpn.com.fromanother.activity;
 
 
 import android.annotation.SuppressLint;
@@ -17,10 +17,10 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.willdev.openvpn.fromanother.util.util.API;
-import com.willdev.openvpn.fromanother.util.util.Constant;
-import com.willdev.openvpn.fromanother.util.util.Events;
-import com.willdev.openvpn.fromanother.util.util.GlobalBus;
+import com.kaizenvpn.com.fromanother.util.util.API;
+import com.kaizenvpn.com.fromanother.util.util.Constant;
+import com.kaizenvpn.com.fromanother.util.util.Events;
+import com.kaizenvpn.com.fromanother.util.util.GlobalBus;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
@@ -28,9 +28,9 @@ import com.facebook.GraphRequest;
 import com.facebook.GraphResponse;
 import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
-import com.willdev.openvpn.R;
-import com.willdev.openvpn.fromanother.util.util.Method;
-import com.willdev.openvpn.view.MainActivity;
+import com.kaizenvpn.com.R;
+import com.kaizenvpn.com.fromanother.util.util.Method;
+import com.kaizenvpn.com.view.MainActivity;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;

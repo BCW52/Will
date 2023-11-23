@@ -1,4 +1,4 @@
-package com.willdev.openvpn.fromanother.util.util;
+package com.kaizenvpn.com.fromanother.util.util;
 
 import android.app.Application;
 import android.content.Context;
@@ -6,7 +6,7 @@ import android.os.StrictMode;
 
 import androidx.multidex.MultiDex;
 
-import com.willdev.openvpn.R;
+import com.kaizenvpn.com.R;
 
 import io.github.inflationx.calligraphy3.CalligraphyConfig;
 import io.github.inflationx.calligraphy3.CalligraphyInterceptor;

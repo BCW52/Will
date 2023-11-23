@@ -46,7 +46,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:321259501930:android:ddbdbfd3099cc87203cd13",
         "android_client_info": {
-          "package_name": "com.willdev.openvpn"
+          "package_name": "com.kaizenvpn.com"
         }
       },
       "oauth_client": [
@@ -54,7 +54,7 @@
           "client_id": "321259501930-6makijhejtbdfsq8q315s4io7gc2kr8r.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.willdev.openvpn",
+            "package_name": "com.kaizenvpn.com",
             "certificate_hash": "cc79066bb564af5149729c26b8bb4d9ab6abb19d"
           }
         },
